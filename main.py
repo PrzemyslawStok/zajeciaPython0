@@ -16,6 +16,8 @@ def powRange(pow: int, min: int, max: int):
     for i in range(min, max):
         print(f"{i ** pow}")
 
+# proszę napisać podobną funkcję przy pomocy biblioteki numpy
+
 
 if __name__ == '__main__':
     print('PyCharm')
@@ -24,3 +26,7 @@ if __name__ == '__main__':
     funkcja2(0, 10)
 
     powRange(10, 0, 10)
+
+    array = np.arange(1,100)
+    print(array)
+    print(array**2)
