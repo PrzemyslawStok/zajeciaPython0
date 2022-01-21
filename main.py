@@ -11,7 +11,7 @@ def funkcja2(min: int, max: int):
 
 def powRange(pow: int ,min: int, max: int):
     for i in range(min,max):
-        pass
+        print(f"{i}")
 
 
 if __name__ == '__main__':
