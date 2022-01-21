@@ -11,7 +11,7 @@ def funkcja2(min: int, max: int):
 
 def powRange(pow: int ,min: int, max: int):
     for i in range(min,max):
-        print(f"{i}")
+        print(f"{i**5}")
 
 
 if __name__ == '__main__':
