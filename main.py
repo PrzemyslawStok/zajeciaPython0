@@ -1,3 +1,5 @@
+import numpy as np
+
 def funkcja1():
     for i in range(10):
         print(f"{i}")
