@@ -43,3 +43,8 @@ if __name__ == '__main__':
 
     M = np.arange(1,100_000_000,2)
     print(M[10000])
+
+    start_time = timeit.default_timer()
+    end_time = timeit.default_timer()
+
+    print(f"arangeMatrix elapsed time: {(end_time-start_time):0.5f}")
