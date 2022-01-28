@@ -1,6 +1,5 @@
 import numpy as np
 
-
 def funkcja1():
     for i in range(10):
         print(f"{i}")
@@ -27,9 +26,5 @@ def powRange_numpy(pow: int, min: int, max: int):
 if __name__ == '__main__':
     print('PyCharm')
 
-    funkcja1()
-    funkcja2(0, 10)
-
     powRange(10, 0, 10)
-
     powRange_numpy(2, 0, 100)
