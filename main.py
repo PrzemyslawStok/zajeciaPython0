@@ -24,7 +24,9 @@ def powRange_numpy(pow: int, min: int, max: int):
 
 
 if __name__ == '__main__':
-    print('PyCharm')
+    A = [1,2,3,4,5,6]
 
-    powRange(10, 0, 10)
-    powRange_numpy(2, 0, 100)
+    print(A)
+    B = np.array([1,2,3,4,5,6])
+    print(B)
+    print(B+10)
