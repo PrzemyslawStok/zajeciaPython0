@@ -68,3 +68,7 @@ if __name__ == '__main__':
     B1 = np.arange(1,7)
     print(B1)
     print(B1.reshape([2,-1]))
+
+    print(np.arange(1,25+1).reshape([5,-1]))
+
+    #proszę wyświetlić macierz 2d z elementami od 1,25
