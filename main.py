@@ -45,9 +45,13 @@ if __name__ == '__main__':
     # print(B+10)
 
     M = np.arange(1, 100_000_000, 2)
-    print(M[10000])
 
     start_time = timeit.default_timer()
     arangeMatrix(0, 10_000_000)
     end_time = timeit.default_timer()
     print(f"arangeMatrix elapsed time: {(end_time - start_time):0.5f}s")
+
+    start_time = timeit.default_timer()
+
+    end_time = timeit.default_timer()
+    print(f"arangeMatrixNumpy elapsed time: {(end_time - start_time):0.5f}s")
