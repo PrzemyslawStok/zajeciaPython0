@@ -47,7 +47,7 @@ if __name__ == '__main__':
     M = np.arange(1, 100_000_000, 2)
 
     min = 0
-    max = 100_000_000
+    max = 10_000_000
 
     start_time = timeit.default_timer()
     arangeMatrix(min, max)
@@ -58,3 +58,13 @@ if __name__ == '__main__':
     arangeMatrixNumpy(min, max)
     end_time = timeit.default_timer()
     print(f"arangeMatrixNumpy elapsed time: {(end_time - start_time):0.5f}s")
+
+    A = np.arange(1,100)
+    print(A)
+    B = [[1,2,3],[4,5,6]]
+
+    print(B[0][1])
+
+    B1 = np.arange(1,7)
+    print(B1)
+    print(B1.reshape([2,-1]))
