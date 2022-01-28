@@ -33,7 +33,7 @@ def arangeMatrix(min: int, max: int) -> list:
 
 
 def arangeMatrixNumpy(min: int, max: int) -> np.ndarray:
-    pass
+    return np.arange(min, max)
 
 
 if __name__ == '__main__':
