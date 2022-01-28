@@ -47,7 +47,7 @@ if __name__ == '__main__':
     M = np.arange(1, 100_000_000, 2)
 
     min = 0
-    max = 10_000_000
+    max = 100_000_000
 
     start_time = timeit.default_timer()
     arangeMatrix(min, max)
