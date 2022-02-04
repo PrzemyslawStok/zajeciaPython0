@@ -61,6 +61,11 @@ def zad2():
     print(np.random.randint(0, 5, [5, 5]))
     print(np.arange(0, 100).reshape([10, -1]))
 
+    A = np.random.randint(0, 5, [20, 1000])
+    B = np.arange(0,1000*20).reshape([1000, -1])
+
+    print(5*(A.T+B)+1000*(B.T+A).T)
+
 
 if __name__ == '__main__':
     # A = [1,2,3,4,5,6]
