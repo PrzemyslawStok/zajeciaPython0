@@ -39,14 +39,20 @@ def zad1():
     A = np.array([[1,2,3,4,5],[6,7,8,9,10]])
     B = np.array([[1,2],[2,3],[4,5],[6,7],[8,9]])
 
-    print(A)
+    #print(A)
     print(B)
 
-    print(A.T)
+    #print(A.T)
 
-    #proszę obliczyć (A.T+(2B+A.T).T).T
+    print(2*B)
 
+    #proszę obliczyć (A.T+(2B+A.T)).T
+
+    print((A.T+(2*B+A.T)).T)
+
+def zad2():
     pass
+
 
 
 if __name__ == '__main__':
