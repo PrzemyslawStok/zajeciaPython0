@@ -35,24 +35,31 @@ def arangeMatrix(min: int, max: int) -> list:
 def arangeMatrixNumpy(min: int, max: int) -> np.ndarray:
     return np.arange(min, max)
 
-def zad1():
-    A = np.array([[1,2,3,4,5],[6,7,8,9,10]])
-    B = np.array([[1,2],[2,3],[4,5],[6,7],[8,9]])
 
-    #print(A)
+def zad1():
+    A = np.array([[1, 2, 3, 4, 5], [6, 7, 8, 9, 10]])
+    B = np.array([[1, 2], [2, 3], [4, 5], [6, 7], [8, 9]])
+
+    # print(A)
     print(B)
 
-    #print(A.T)
+    # print(A.T)
 
-    print(2*B)
+    print(2 * B)
 
-    #proszę obliczyć (A.T+(2B+A.T)).T
+    # proszę obliczyć (A.T+(2B+A.T)).T
 
-    print((A.T+(2*B+A.T)).T)
+    print((A.T + (2 * B + A.T)).T)
+
 
 def zad2():
-    pass
+    # proszę utworzyć macierz A o rozmiarze [20,1000] składającą się z losowych cyfr
+    # proszę utworzyć macierz B o rozmiarze [1000,20] wypełnioną kolejnymi cyframi
 
+    # proszę rozwiązać 5*(A.T+B)+1000*(B.T+A).T
+
+    print(np.random.randint(0, 5, [5, 5]))
+    print(np.arange(0, 100).reshape([10, -1]))
 
 
 if __name__ == '__main__':
@@ -78,6 +85,7 @@ if __name__ == '__main__':
     end_time = timeit.default_timer()
     print(f"arangeMatrixNumpy elapsed time: {(end_time - start_time):0.5f}s")
 
-    A = np.arange(1,100)
+    A = np.arange(1, 100)
 
-    zad1()
+    # zad1()
+    zad2()
