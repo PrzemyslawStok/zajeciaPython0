@@ -77,6 +77,13 @@ def zad3():
     #print(A * B)
     #print(np.dot(A, B))
 
+    # proszę utworzyć macierz A o rozmiarze [50,100] składającą się z losowych cyfr od 1 do 10
+    # proszę utworzyć macierz B o rozmiarze [100,50] wypełnioną kolejnymi cyframi
+
+    # proszę rozwiązać (A.T*B).T+10*A
+
+
+
 
 if __name__ == '__main__':
     # A = [1,2,3,4,5,6]
