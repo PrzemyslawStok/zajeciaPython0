@@ -35,6 +35,19 @@ def arangeMatrix(min: int, max: int) -> list:
 def arangeMatrixNumpy(min: int, max: int) -> np.ndarray:
     return np.arange(min, max)
 
+def zad1():
+    A = np.array([[1,2,3,4,5],[6,7,8,9,10]])
+    B = np.array([[1,2],[2,3],[4,5],[6,7],[8,9]])
+
+    print(A)
+    print(B)
+
+    print(A.T)
+
+    #proszę obliczyć (A.T+(2B+A.T).T).T
+
+    pass
+
 
 if __name__ == '__main__':
     # A = [1,2,3,4,5,6]
@@ -60,15 +73,5 @@ if __name__ == '__main__':
     print(f"arangeMatrixNumpy elapsed time: {(end_time - start_time):0.5f}s")
 
     A = np.arange(1,100)
-    print(A)
-    B = [[1,2,3],[4,5,6]]
 
-    print(B[0][1])
-
-    B1 = np.arange(1,7)
-    print(B1)
-    print(B1.reshape([2,-1]))
-
-    print(np.arange(1,25+1).reshape([5,-1]))
-
-    #proszę wyświetlić macierz 2d z elementami od 1,25
+    zad1()
