@@ -62,9 +62,20 @@ def zad2():
     print(np.arange(0, 100).reshape([10, -1]))
 
     A = np.random.randint(0, 5, [20, 1000])
-    B = np.arange(0,1000*20).reshape([1000, -1])
+    B = np.arange(0, 1000 * 20).reshape([1000, -1])
 
-    print(5*(A.T+B)+1000*(B.T+A).T)
+    print(5 * (A.T + B) + 1000 * (B.T + A).T)
+
+
+def zad3():
+    A = np.random.randint(0, 5, [5, 5])
+    B = 2 * np.ones([5, 5])
+
+    #print(A)
+    #print(B)
+
+    #print(A * B)
+    #print(np.dot(A, B))
 
 
 if __name__ == '__main__':
@@ -93,4 +104,5 @@ if __name__ == '__main__':
     A = np.arange(1, 100)
 
     # zad1()
-    zad2()
+    # zad2()
+    zad3()
