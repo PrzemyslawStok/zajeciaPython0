@@ -71,18 +71,37 @@ def zad3():
     A = np.random.randint(0, 5, [5, 5])
     B = 2 * np.ones([5, 5])
 
-    #print(A)
-    #print(B)
+    # print(A)
+    # print(B)
 
-    #print(A * B)
-    #print(np.dot(A, B))
+    # print(A * B)
+    # print(np.dot(A, B))
 
     # proszę utworzyć macierz A o rozmiarze [50,100] składającą się z losowych cyfr od 1 do 10
     # proszę utworzyć macierz B o rozmiarze [100,50] wypełnioną kolejnymi cyframi
 
     # proszę rozwiązać (A.T*B).T+10*A
 
+    A = np.random.randint(1, 10, [50, 100])
+    B = np.arange(0, 100 * 50).reshape([100, -1])
 
+    print((A.T * B).T + 10 * A)
+
+
+def zad4():
+    # proszę utworzyć macierz A o rozmiarze [500,100] składającą się z losowych cyfr od 10 do 20
+    # proszę utworzyć macierz B o rozmiarze [100,500] wypełnioną kolejnymi cyframi
+
+    # proszę rozwiązać A^10+B.T^10
+    pass
+
+
+def zad5():
+    # proszę utworzyć macierz A o rozmiarze [250,10] składającą się z losowych cyfr od 10 do 20
+    # proszę utworzyć macierz B o rozmiarze [10,250] wypełnioną kolejnymi cyframi
+
+    # proszę rozwiązać (A.T+B)*(2*B.T+10A)
+    pass
 
 
 if __name__ == '__main__':
