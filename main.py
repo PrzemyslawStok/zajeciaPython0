@@ -119,6 +119,11 @@ def zad6():
 
     print(np.dot(A, B))
 
+def zad7():
+    A = np.arange(0, 9).reshape([3, -1])
+    #proszę zdefiniować losowe macierze B i C tak, żeby można było rozwiązać
+    #AxBxC
+    pass
 
 if __name__ == '__main__':
     # A = [1,2,3,4,5,6]
@@ -151,4 +156,5 @@ if __name__ == '__main__':
     # zad4()
     # zad5()
 
-    zad6()
+    # zad6()
+    zad7()
