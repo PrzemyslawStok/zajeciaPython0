@@ -95,15 +95,19 @@ def zad4():
     A = np.random.randint(10, 20, [500, 100])
     B = np.arange(0, 100 * 500).reshape([100, -1])
 
-    # proszę rozwiązać A^10+B.T^10
-    pass
+    print(A ** 10 + B.T ** 10)
 
 
 def zad5():
     # proszę utworzyć macierz A o rozmiarze [250,10] składającą się z losowych cyfr od 10 do 20
     # proszę utworzyć macierz B o rozmiarze [10,250] wypełnioną kolejnymi cyframi
 
-    # proszę rozwiązać (A.T+B)*(2*B.T+10A)
+    A = np.random.randint(10, 20, [250, 10])
+    B = np.arange(0, 10 * 250).reshape([10, -1])
+
+    print((A.T + B).T * (2 * B.T + 10 * A))
+
+def zad6():
     pass
 
 
@@ -135,4 +139,5 @@ if __name__ == '__main__':
     # zad1()
     # zad2()
     # zad3()
-    zad4()
+    # zad4()
+    # zad5()
