@@ -92,6 +92,9 @@ def zad4():
     # proszę utworzyć macierz A o rozmiarze [500,100] składającą się z losowych cyfr od 10 do 20
     # proszę utworzyć macierz B o rozmiarze [100,500] wypełnioną kolejnymi cyframi
 
+    A = np.random.randint(10, 20, [500, 100])
+    B = np.arange(0, 100 * 500).reshape([100, -1])
+
     # proszę rozwiązać A^10+B.T^10
     pass
 
@@ -131,4 +134,5 @@ if __name__ == '__main__':
 
     # zad1()
     # zad2()
-    zad3()
+    # zad3()
+    zad4()
