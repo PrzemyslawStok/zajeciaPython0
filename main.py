@@ -107,8 +107,15 @@ def zad5():
 
     print((A.T + B).T * (2 * B.T + 10 * A))
 
+
 def zad6():
-    pass
+    A = np.arange(0, 9).reshape([3, -1])
+    B = np.arange(0, 3).reshape([3, -1])
+
+    print(A)
+    print(B)
+
+    print(np.dot(A, B))
 
 
 if __name__ == '__main__':
@@ -141,3 +148,5 @@ if __name__ == '__main__':
     # zad3()
     # zad4()
     # zad5()
+
+    zad6()
