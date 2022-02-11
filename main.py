@@ -110,7 +110,9 @@ def zad5():
 
 def zad6():
     A = np.arange(0, 9).reshape([3, -1])
-    B = np.arange(0, 6).reshape([3, -1])
+    B = np.arange(0, 3 * 20).reshape([3, -1])
+
+    # zad. proszę utworzyć macierz o 20 kolumnach którą można pomnożyć macierz A
 
     print(A)
     print(B)
