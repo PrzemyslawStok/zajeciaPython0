@@ -110,7 +110,7 @@ def zad5():
 
 def zad6():
     A = np.arange(0, 9).reshape([3, -1])
-    B = np.arange(0, 3).reshape([3, -1])
+    B = np.arange(0, 6).reshape([3, -1])
 
     print(A)
     print(B)
